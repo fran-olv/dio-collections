@@ -19,8 +19,7 @@ public class CadastroProdutos {
     }
 
     public Set<Produto> exibirProdutosPorNome(){
-        Set<Produto> produtosPorNome = new TreeSet<>(produtoSet);
-        return produtosPorNome;
+        return new TreeSet<>(produtoSet);
 
     }
 

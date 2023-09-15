@@ -49,7 +49,7 @@ public class Produto implements Comparable<Produto> {
                 '}';
     }
 
-    class ComparatorPorPreco implements Comparator<Produto> {
+    static class ComparatorPorPreco implements Comparator<Produto> {
 
         @Override
         public int compare(Produto p1, Produto p2) {
